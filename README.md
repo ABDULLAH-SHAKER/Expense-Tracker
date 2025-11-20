@@ -4,25 +4,26 @@
 Expense-Tracker is a simple, clean, and lightweight Java application designed to help you manage your personal expenses through a friendly Command Line Interface (CLI).
 It is beginner-friendly and built using Object-Oriented Programming (OOP) principles with clean file handling and a modular structure.
 
-⭐ Features
+## ⭐ Features
 
-Add new expenses (Description, Category, Amount, Date)
+- Add new expenses (Description, Category, Amount, Date)
 
-List all stored expenses
+- List all stored expenses
 
-Search expenses by keyword
+- Search expenses by keyword
 
-Update existing records easily
+- Update existing records easily
 
-Delete unwanted expenses
+- Delete unwanted expenses
 
-Auto-save and load from expenses.csv
+- Auto-save and load from expenses.csv
 
-Organized folder structure + readable and clean Java code
+- Organized folder structure + readable and clean Java code
 
-Designed for easy expansion (GUI, database, etc.)
+- Designed for easy expansion (GUI, database, etc.)
 
-🧩 Project Structure
+## 🧩 Project Structure
+```
 Expense-Tracker/
 │
 ├── src/
@@ -39,50 +40,58 @@ Expense-Tracker/
 │   └── header.png
 │
 └── README.md
+```
 
-🎯 Project Goals
+---
 
-Practice building real Java projects
+## 🎯 Project Goals
 
-Apply OOP concepts in a practical way
+- Practice building real Java projects
 
-Learn how to handle files with Java I/O
+- Apply OOP concepts in a practical way
 
-Build a working console-based application
+- Learn how to handle files with Java I/O
 
-Enable future enhancements (GUI, database, cloud storage)
+- Build a working console-based application
 
-Improve code structure, maintainability, and readability
+- Enable future enhancements (GUI, database, cloud storage)
 
-🛠️ Technologies Used
+- Improve code structure, maintainability, and readability
 
-Java 17+
+---
 
-CLI (Command Line Interface)
+## 🛠️ Technologies Used
+- **Java 17+**
+- **CLI Interface**
+- **Object-Oriented Programming**
+- **File Handling (CSV Storage)**
 
-Object-Oriented Programming
+---
 
-File Handling (CSV Storage)
+## 🚀 How to Run
 
-🚀 How to Run
-
-Clone the repository
-
+1. **Clone the repository**
+```bash
 git clone https://github.com/ABDULLAH-SHAKER/Expense-Tracker.git
 cd Expense-Tracker
+```
 
-
-Create a bin directory and compile the Java files
-
+2. **Create `bin` directory and compile all Java files**
+```bash
 mkdir -p bin
 javac -d bin src/**/*.java
+```
 
-
-Run the program
-
+3. **Run the application**
+```bash
 java -cp bin Main
+```
 
-💻 Example CLI Usage
+---
+
+## 💻 Example CLI Usage
+
+```
 === Expense Tracker ===
 1. Add Expense
 2. List Expenses
@@ -97,31 +106,35 @@ Category: Food
 Amount: 12
 Date (YYYY-MM-DD): 2024-11-18
 Expense added successfully!
+```
 
-📦 Storage Details
+---
 
-All expenses are saved in data/expenses.csv
+## 📦 Storage Details
 
-File format:
+- All expenses are saved in data/expenses.csv
 
-description,category,amount,date
+- File format:
 
-📝 Roadmap / TODO
+- description,category,amount,date
 
-Add a GUI version (JavaFX)
+- 📝 Roadmap / TODO
 
-Export reports (PDF, Excel)
+- Add a GUI version (JavaFX)
 
-Add monthly statistics & graphs
+- Export reports (PDF, Excel)
 
-Add categories and analytics
+- Add monthly statistics & graphs
 
-Support cloud sync or database storage
+- Add categories and analytics
 
-👤 Author
+- Support cloud sync or database storage
 
-Abdullah Shaker
+---
 
-GitHub: ABDULLAH-SHAKER
+## 👤 Author
+**Abdullah Shaker**  
+- GitHub: [ABDULLAH-SHAKER](https://github.com/ABDULLAH-SHAKER)  
+- Contact: `Abdullah.bamalhas@gmail.com`
 
-Contact: Abdullah.bamalhas@gmail.com
+---
